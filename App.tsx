@@ -14,7 +14,7 @@ const App = () => {
   let arr:Number[] = [1,2,3,4,5,6,7,8]
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="light-content" backgroundColor="#296"  />
       <SafeAreaView style={styles.container}>
        
          <FlatList
